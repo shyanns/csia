@@ -1,111 +1,207 @@
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cream Level App</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center horizontally */
-            justify-content: center; /* Center vertically */
-            min-height: 100vh; /* Ensure full viewport height */
-            margin: 0; /* Remove default margins */
-            background-color: grey;
-        }
 
-        .container {
-            background-color: white; /* Or a light grey if you prefer */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-            text-align: center; /* Center text within container */
-        }
+    <title>Computer science Solution cover page</title>
 
-        .color-bands {
-            display: flex;
-            width: 300px; /* Adjust as needed */
-            margin-bottom: 20px;
-        }
-
-        .color-band {
-            height: 50px;
-            flex: 1; /* Equal width for each band */
-        }
-
-        .red { background-color: red; }
-        .pink { background-color: pink; }
-        .hot-pink { background-color: hotpink; }
-
-        .cream-controls {
-            display: flex;
-            align-items: center; /* Vertically align items */
-            justify-content: center; /* Center the whole control area */
-            margin-bottom: 20px;
-        }
-
-        .cream-level-button {
-            background-color: #f0f0f0; /* Light grey background */
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-right: 10px; /* Space between button and circles */
-        }
-
-        .circle-container {
-            display: flex; /* Arrange circles horizontally */
-        }
-
-        .circle {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: lightgrey;
-            margin: 0 5px; /* Space between circles */
-            cursor: pointer; /* Indicate interactivity */
-        }
-
-        /* Example of active/selected circle */
-        .circle.active {
-            background-color: yellow; /* Or a suitable cream color */
-        }
-
-        #creamLevelDisplay { /* For displaying the cream level */
-            margin-top: 10px;
-        }
-
-    </style>
 </head>
-<body>
-    <div class="container">
-        <div class="color-bands">
-            <div class="color-band red"></div>
-            <div class="color-band pink"></div>
-            <div class="color-band hot-pink"></div>
-        </div>
 
-        <div class="cream-controls">
-            <button class="cream-level-button" id="creamButton">Request Cream Level</button>
-            <div class="circle-container">
-                <div class="circle" data-level="1"></div>
-                <div class="circle" data-level="2"></div>
-                <div class="circle" data-level="3"></div>
-                <div class="circle" data-level="4"></div>
-                <div class="circle" data-level="5"></div>
-            </div>
-        </div>
-        <div id="creamLevelDisplay">Cream Level: 0</div>  </div>
+<body lang=EN-GB link=blue vlink=purple>
 
-    <script>
-        const creamButton = document.getElementById('creamButton');
-        const circles = document.querySelectorAll('.circle');
-        const creamLevelDisplay = document.getElementById('creamLevelDisplay');
-        let selectedLevel = 0; // Initialize cream level
+    <h2 align=center style='text-align:center'><span>Computer science Solution cover page</span></h2>
+
+    <table>
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Candidate name:</b>Shyann Stanley</p>
+            </td>
+            <td width=400>
+                <p><b>School number:&nbsp &nbsp &nbsp</b><u>1064</u></p>
+            </td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Solution title:</b> DRINK an ordering app</p>
+            </td>
+            <td width=400>
+                <p><b>Candidate session number:&nbsp &nbsp &nbsp</b><u>xx</u></p>
+            </td>
+            <td width=200></td>
+        <tr>
+
+        <tr height='30'>
+            <td width=320 colspan=2>
+                </p>
+            </td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>User name:</b> xxxxxxxxxx </p>
+            </td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
 
 
 
-    </script>
+        <tr>
+            <td width=320 height=50 colspan=2>
+                <p><b>Links to:</b> Product (add link here)</p><a href="<a href=" https://shyanns.github.io/new-css/">Product</a>
+            </td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr height=20>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 height=50 colspan=2 valign='top'>
+                <p><b>Directions to access product or any other additional information</b></p>
+            </td>
+            <td width=400 height=70 bgcolor="gray" valign='top'>
+                <p> </p>If the product does not load, please go to the Product folder and click on src
+            </td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><i>Links to documentation are below</i></p>
+            </td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr height=20>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Planning</b></p>
+            </td>
+            <td width=400><a href="https://drive.google.com/file/d/1T_6mqqsWYSqxT61jmo-gwmmT7TzSfjG0/view?usp=sharing">Planning</a></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Design</b></p>
+            </td>
+            <td width=400><a href="https://docs.google.com/document/d/1G5ggzeA8AE4Cf-glzr86pDd6_9vjRBioNEniZ3p_1Do/edit?usp=sharing">Record of tasks</a> (use form)</td>
+        <tr>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b></b></p>
+            </td>
+            <td width=400><a href="https://drive.google.com/file/d/1k3d4zKsyHIWWC__H6IXILEpxuJFlEZ4y/view?usp=sharing">Design</a></td>
+        <tr>
+            <td width=200></td>
+        <tr>
+
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Development</b></p>
+            </td>
+            <td width=400><a href="https://docs.google.com/document/d/17x19VTM7p5LSL_EsL-JWSfG2ecGLSALiLZrMiKvtVdE/edit?usp=sharing">Development</a></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Functionality (additional videos may be added)</b></p>
+            </td>
+            <td width=400><a href="https://drive.google.com/file/d/11Clz3GfzRt7gMtd4K43JCMUFINbDnXgY/view?usp=sharing">Video of product</a></td>
+            <td width=200></td>
+        <tr>
+
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Evaluation</b></p>
+            </td>
+            <td width=400><a href="https://docs.google.com/document/d/1MrSTcEBi8B1Rf-doSidH7KV0PafGwiissinkBRHLFB4/edit?usp=sharing">Evaluation</a></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2>
+                <p><b>Appendix / appendices</b></p>
+            </td>
+            <td width=400><a href="https://docs.google.com/document/d/1C2Rfor_sRzYSvMH9BrLTO2x1IyyLmB2UXjeB9Ai23xo/edit?usp=sharing">Appendix</a></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=100></td>
+            <td width=220></td>
+            <td width=400></td>
+            <td width=200></td>
+        <tr>
+
+        <tr>
+            <td width=320 colspan=2 height='70'>
+                <p><b>WORD COUNT</b></p>
+            </td>
+            <td width=400>
+                <p><b>____1819____ </b></p>
+            </td>
+            <td width=200></td>
+        <tr>
+
 
 </body>
+
 </html>
